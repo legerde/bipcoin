@@ -33,7 +33,7 @@ const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 20000; //size of block (bytes) after which reward for block calculated using block size
 const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 //TODO Define number of digits
-const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 12;
+const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 8;
 //TODO Define minimum fee for transactions
 const uint64_t MINIMUM_FEE                                   = 100000;
 const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
@@ -74,8 +74,8 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "bipcoin";
-const char GENESIS_COINBASE_TX_HEX[] = "013c01ff000108029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101ff44dba2ddae629565532e535f83143c3d4a182779f6d033c60c1a8c0855abf3";
-
+//const char GENESIS_COINBASE_TX_HEX[] = "";
+const char GENESIS_COINBASE_TX_HEX[] = "013c01ff000108029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101aa2a94a05920581b76ccac5aa6cd98e20f346e08c3d294614a08c0567df1aabd";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
