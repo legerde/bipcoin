@@ -33,7 +33,7 @@ const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 20000; //size of block (bytes) after which reward for block calculated using block size
 const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 //TODO Define number of digits
-const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 12;
+const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 8;
 //TODO Define minimum fee for transactions
 const uint64_t MINIMUM_FEE                                   = 100000;
 const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
@@ -109,6 +109,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 const std::initializer_list<const char*> SEED_NODES = {
   "149.56.89.152:18870",   // Slopey server 
   "216.158.233.34:18870",  // node.bipcoin.org
+  "138.68.79.3:18870",     // BippyGermany
   //"127.0.0.1:18870",  // localhost
 };
 
