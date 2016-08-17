@@ -103,14 +103,13 @@ const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT                = 5000;          //
 const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT           = 2000;          // 2 seconds
 const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; // 2 minutes
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
-const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
+const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "0101010101010101010101010101010102010101010101010101010101010101";
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
   "149.56.89.152:18870",   // Slopey server 
   "216.158.233.34:18870",  // node.bipcoin.org
   "138.68.79.3:18870",     // BippyGermany
-  //"127.0.0.1:18870",  // localhost
 };
 
 struct CheckpointData {

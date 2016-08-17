@@ -1,7 +1,7 @@
 #!/bin/bash
 STR="0-0-0-1"
 
-rm -Rf ~/.bipcoin
+#rm -Rf ~/.bipcoin
 
 #make it
 #cmake .
